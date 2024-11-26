@@ -1,3 +1,4 @@
+// require path module from node modules
 const path = require('path');
 
 /* print directory name */

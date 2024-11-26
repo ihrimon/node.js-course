@@ -1,4 +1,5 @@
-function fun(exports, require, module, __filename, __dirname) {
+function moduleWrapper(exports, require, module, __filename, __dirname) {
+
     console.log("node module wrapper demo");
 
     console.log("__filename", __filename);
@@ -12,4 +13,5 @@ function fun(exports, require, module, __filename, __dirname) {
     console.log("module", module);
 }
 
-fun();
+// function call
+moduleWrapper();
